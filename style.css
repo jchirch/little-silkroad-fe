@@ -5,7 +5,8 @@
 }
 
 body, html {
-  background-color: powderblue;
+  /* background-color: powderblue; */
+  background-color: steelblue;
 }
 
 body {
@@ -29,14 +30,16 @@ aside {
   height: 100vh;
   margin: none;
   overflow-y: auto;
-  background-color: powderblue; 
+  /* background-color: powderblue;  */
+  background-color: steelblue; 
 }
 
 header {
   text-align: center;
   margin: 10px 10px 80px 10px;
   background-color: black;
-  color: white;
+  /* color: white; */
+  color: whitesmoke;
   padding: 15px;
 }
 
@@ -58,7 +61,8 @@ nav {
 nav > button {
   border: none;
   margin-bottom: 20px;
-  background-color: powderblue;
+  /* background-color: powderblue; */
+  background-color: steelblue;
   /* width: 65%; */
   width: 96%;
   text-align: center;
@@ -67,16 +71,19 @@ nav > button {
 }
 
 nav > button:hover {
-  background-color: white;
+  /* background-color: white; */
+  background-color: whitesmoke;
 }
 
 nav > button:hover:not(.active-nav) {
   /* background-color: #cbeef2; */
-  background-color: #9ac9ce;
+  /* background-color: #9ac9ce; */
+  background-color: #3d76a5;
 }
 
 .active-nav {
-  background-color: white;
+  /* background-color: white; */
+  background-color: whitesmoke;
 }
 
 /* MAIN */
@@ -85,7 +92,8 @@ main {
   padding: 10px;
   width: 79%;
   /* width: 125%; */
-  background-color: white;
+  /* background-color: white; */
+  background-color: whitesmoke;
   margin-left: 20%;
 }
 
@@ -96,7 +104,8 @@ form {
 .item,
 .merchant {
   display: flex;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: white;
   margin: 10px;
   padding: 5px;
 }
@@ -123,6 +132,10 @@ form {
   justify-content: space-between;
   align-items: center;
 }
+
+/* #merchant-view {
+  display: flex;
+} */
 
 .view-items-button {
   padding: 5px;
