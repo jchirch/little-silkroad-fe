@@ -239,16 +239,9 @@ function filterByMerchant(merchantId) {
     item.attributes.merchant_id === parseInt(merchantId))
 }
 
+function findMerchant(id) {
 
-
-
-// function findMerchant(id) {
-//   let foundMerchant;
-
-//   for (let i = 0; i < merchants.length; i++) {
-//     if (parseInt(merchants[i].id) === parseInt(id)) {
-//       foundMerchant = merchants[i]
-//       return foundMerchant
-//     }
-//   }
-// }
+  return merchants.find((merchant) => 
+    parseInt(merchant.id) === parseInt(id)
+  )
+}
