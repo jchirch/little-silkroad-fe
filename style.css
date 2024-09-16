@@ -11,6 +11,7 @@ body, html {
 body {
   display: flex;
   margin: 0px;
+  /* min-height: 100vh; */
 }
 
 button {
@@ -20,9 +21,15 @@ button {
 /* SIDEBAR */
 
 aside {
-  width: 25%;
+  /* width: 25%; */
+  width: 20%;
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  height: 100vh;
   margin: none;
-  /* position: fixed; */
+  overflow-y: auto;
+  background-color: powderblue; 
 }
 
 header {
@@ -76,9 +83,10 @@ nav > button:hover:not(.active-nav) {
 
 main {
   padding: 10px;
-  /* width: 75%; */
-  width: 125%;
+  width: 79%;
+  /* width: 125%; */
   background-color: white;
+  margin-left: 20%;
 }
 
 form {
@@ -97,7 +105,6 @@ form {
   width: 30%;
   flex-direction: column;
   justify-content: center;
-  /* display: flex; */
 }
 
 #items-view {
@@ -106,8 +113,7 @@ form {
   justify-content: space-evenly;
 }
 
-.item h2, p{
-  /* color: orange; */
+.item h2, p {
   text-align: center;
 }
 
