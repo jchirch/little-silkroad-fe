@@ -99,22 +99,52 @@ main {
 
 form {
   display: flex;
+  align-items: center;
 }
 
-.add-new-button {
+#new-merchant-name {
+  margin: 0.3em;
+}
+
+.add-new-button,
+.submit {
   /* background-color: black; */
   background-color: #eaac8b;
   /* color: white; */
   color: black;
   border: none;
   border-radius: 2px;
+  height: 2em;
 }
+
+/* .add-new-button,
+.submit:hover {
+  background-color: f4cdba;
+} */
 
 .view-merchant-items,
 .edit-merchant,
-.delete-merchant {
+.delete-merchant,
+.submit-merchant-edits,
+.discard-merchant-edits {
   background-color: #eaac8b;
   border: none;
+  height: 2em;
+  border-radius: 2px;
+}
+
+.submit-merchant-edits,
+.discard-merchant-edits {
+  background-color: green;
+  color: white;
+}
+
+.discard-merchant-edits {
+  background-color: indianred;
+}
+
+.edit-merchant-input {
+  height: 1.6em;
 }
 
 .item,
