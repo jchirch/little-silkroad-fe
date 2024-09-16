@@ -27,7 +27,7 @@ ______________________________________________________
 Before turning this project in, erase this line and everything above it and fill in the info below.  
 ______________________________________________________  
 
-# Hang in There  
+# Little Silk Road 
 
 ### Abstract:
 (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
@@ -39,13 +39,43 @@ ______________________________________________________
 (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
 
 ### Context:
-(Give some context for the project here. How long did you have to work on it? What specific work/improvements did you contribute to this FE application?)
+This proiject was completed over the course of 8 days by a team of Turing students.
 
 ### Contributors:
-(Who worked on this application? Link to your GitHub. Consider also providing LinkedIn link)
+Bloom, Stefan
+  - [Github](https://github.com/stefanjbloom)
+  - [LinkedIn](https://www.linkedin.com/in/stefanjbloom/)
+
+Chirchirillo, Joe
+  - [Github](https://github.com/jchirch)
+  - [LinkedIn](https://www.linkedin.com/in/joechirchirillo/)
+
+Fallenius, Karl
+  - [Github](https://github.com/SmilodonP)
+  - [LinkedIn](https://www.linkedin.com/in/karlfallenius/)
+
+Messersmith, Renee
+  - [Github](https://github.com/reneemes)
+  - [LinkedIn](https://www.linkedin.com/in/reneemessersmith/)
+
 
 ### Learning Goals:
-(What were the learning goals of this project? What tech did you work with?)
+- Use ActiveRecord and SQL to write queries that deal with one-to-many database relationships
+- Expose API endpoints to CRUD database resources
+- Validate models and handle sad paths for invalid data input
+- Test both happy and sad path functionality based on JSON contracts
+- Use MVC to organize code effectively, lmiting data logic in controllers and serializers
+- Track user stories with GitHub Projects
+- Improve an existing FE application by:
+- Styling the user interface
+- Refactoring JavaScript code
+- Adding an additional FE feature
+- Reading Documentation
+- Time Management
+- Prioritizing Work
+- Breaking down large project into small pieces
+- Breaking down a problem into small steps
+- Practice individual research (articles, videos, mentors)
 
 ### Wins + Challenges:
-(What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+- A significant portion of the hurdles faced with this project was the practice of merging other's code into our branches and resolving merge conflicts. Its difficult to look at code one did not write, interpret what it does, and how to blend it into your own code.
