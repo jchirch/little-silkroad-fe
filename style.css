@@ -101,6 +101,22 @@ form {
   display: flex;
 }
 
+.add-new-button {
+  /* background-color: black; */
+  background-color: #eaac8b;
+  /* color: white; */
+  color: black;
+  border: none;
+  border-radius: 2px;
+}
+
+.view-merchant-items,
+.edit-merchant,
+.delete-merchant {
+  background-color: #eaac8b;
+  border: none;
+}
+
 .item,
 .merchant {
   display: flex;
