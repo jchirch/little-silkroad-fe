@@ -22,10 +22,7 @@ This FE application is build to consume the data from your Rails API.  In order 
 
 Follow the directions in the FE requirements portion of the Little Shop group project spec. When you are finished with the FE work, update this README to remove the current content and follow the template below.  
 
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
+
 
 # Little Silk Road 
 
@@ -35,11 +32,13 @@ ______________________________________________________
 ### Installation Instructions:
 (What steps does a person have to take to get your app cloned down and running?)
 
+Fork and Clone from theses repos: [Silk Road FE](https://github.com/jchirch/little-silkroad-fe) [Silk Road BE](https://github.com/stefanjbloom/little_silk_road)
+
 ### Preview of App:
 (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
 
 ### Context:
-This proiject was completed over the course of 8 days by a team of Turing students.
+This proiject was completed over the course of and 8 day sprint by a team of Turing students.
 
 ### Contributors:
 Bloom, Stefan
