@@ -28,9 +28,7 @@ addNewButton.addEventListener('click', () => {
   show([merchantForm])
 })
 
-sortMerchantsButton.addEventListener('click', () => {
-  show([merchantForm])
-})
+sortMerchantsButton.addEventListener('click', sortMerchants)
 
 submitMerchantButton.addEventListener('click', (event) => {
   submitMerchant(event)
@@ -249,4 +247,10 @@ function findMerchant(id) {
   return merchants.find((merchant) => 
     parseInt(merchant.id) === parseInt(id)
   )
+}
+
+function sortMerchants() {
+  merchants.sort((a, b) => 
+  a.attributes.name.localeCompare(b.attributes.name));
+  displayMerchants(merchants);
 }
