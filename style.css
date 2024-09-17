@@ -97,7 +97,7 @@ form {
 
 .add-new-button,
 .submit {
-  background-color: #eaac8b;
+  background-color: #91b7d6;
   color: black;
   border: none;
   border-radius: 2px;
@@ -109,7 +109,7 @@ form {
 .delete-merchant,
 .submit-merchant-edits,
 .discard-merchant-edits {
-  background-color: #eaac8b;
+  background-color: #91b7d6;
   border: none;
   height: 2em;
   border-radius: 2px;
