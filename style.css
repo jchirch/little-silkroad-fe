@@ -95,6 +95,7 @@ form {
   margin: 0.3em;
 }
 
+.sort-button,
 .add-new-button,
 .submit {
   background-color: #91b7d6;

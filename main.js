@@ -9,6 +9,7 @@ const merchantsNavButton = document.querySelector("#merchants-nav")
 const itemsNavButton = document.querySelector("#items-nav")
 const addNewButton = document.querySelector("#add-new-button")
 const showingText = document.querySelector("#showing-text")
+const sortMerchantsButton = document.querySelector("#sort-button")
 
 //Form elements
 const merchantForm = document.querySelector("#new-merchant-form")
@@ -24,6 +25,10 @@ merchantsNavButton.addEventListener('click', showMerchantsView)
 itemsNavButton.addEventListener('click', showItemsView)
 
 addNewButton.addEventListener('click', () => {
+  show([merchantForm])
+})
+
+sortMerchantsButton.addEventListener('click', () => {
   show([merchantForm])
 })
 
