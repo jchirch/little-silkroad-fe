@@ -240,7 +240,6 @@ function filterByMerchant(merchantId) {
 }
 
 function findMerchant(id) {
-
   return merchants.find((merchant) => 
     parseInt(merchant.id) === parseInt(id)
   )
