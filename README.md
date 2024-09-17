@@ -54,10 +54,7 @@ This project was completed over the course of an 8 day sprint by a team of Turin
   - Adding an additional FE feature
   - Practice individual research (articles, videos, mentors)
 
-### Wins + Challenges:
-- A significant portion of the hurdles faced with this project was the practice of merging other's code into our branches and resolving merge conflicts. 
-- Its difficult to look at code one did not write, interpret what it does, and how to incorporate your own work into it.
-- A win was seeing everyone looking out for one another and the sum of the labors coming together for a functional full stack application.
+
 
 ### Contributors:
 Bloom, Stefan
