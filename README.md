@@ -3,9 +3,9 @@
 ### Abstract:
 This project aims to create service oriented architecture for an application. 
 
-The backend exposes data through a set of API endpoints that communicate with a seperate front end application. The API handles CRUD operations and handles one-to-many relationships with SQL and ActiveRecord queries.
+The backend exposes data through a set of API endpoints that communicate with a separate front end application. The API handles CRUD operations and handles one-to-many relationships with SQL and ActiveRecord queries.
 
-The frontend consumes data from the Rails API. Additionally, it enhances user experiance with a new interface to sort through sellers and their goods and services.
+The frontend consumes data from the Rails API. Additionally, it enhances user experience with a new interface to sort through sellers and their goods and services.
 
 ### Installation Instructions:
 

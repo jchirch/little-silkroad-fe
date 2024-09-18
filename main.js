@@ -21,7 +21,8 @@ merchantsView.addEventListener('click', (event) => {
   handleMerchantClicks(event)
 })
 
-merchantsNavButton.addEventListener('click', showMerchantsView)
+merchantsNavButton.addEventListener('click', showMerchantsView) 
+
 itemsNavButton.addEventListener('click', showItemsView)
 
 addNewButton.addEventListener('click', () => {
