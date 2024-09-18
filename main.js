@@ -21,7 +21,10 @@ merchantsView.addEventListener('click', (event) => {
   handleMerchantClicks(event)
 })
 
-merchantsNavButton.addEventListener('click', showMerchantsView)
+merchantsNavButton.addEventListener('click', () => {
+  location.reload();
+  showMerchantsView();
+})
 itemsNavButton.addEventListener('click', showItemsView)
 
 addNewButton.addEventListener('click', () => {
@@ -150,7 +153,7 @@ function showItemsView() {
 function showMerchantItemsView(id, items) {
   showingText.innerText = `All Items for Merchant #${id}`
   show([itemsView])
-  hide([merchantsView, addNewButton])
+  hide([merchantsView, addNewButton,sortMerchantsButton])
   addRemoveActiveNav(itemsNavButton, merchantsNavButton)
   addNewButton.dataset.state = 'item'
   displayItems(items)
