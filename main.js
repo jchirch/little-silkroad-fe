@@ -28,7 +28,9 @@ addNewButton.addEventListener('click', () => {
   show([merchantForm])
 })
 
-sortMerchantsButton.addEventListener('click', sortMerchants)
+sortMerchantsButton.addEventListener('click', () => {
+  sortMerchants()
+})
 
 submitMerchantButton.addEventListener('click', (event) => {
   submitMerchant(event)
@@ -131,7 +133,7 @@ function showMerchantsView() {
   showingText.innerText = "All Merchants"
   addRemoveActiveNav(merchantsNavButton, itemsNavButton)
   addNewButton.dataset.state = 'merchant'
-  show([merchantsView, addNewButton])
+  show([merchantsView, addNewButton, sortMerchantsButton])
   hide([itemsView])
   displayMerchants(merchants)
 }
@@ -141,7 +143,7 @@ function showItemsView() {
   addRemoveActiveNav(itemsNavButton, merchantsNavButton)
   addNewButton.dataset.state = 'item'
   show([itemsView])
-  hide([merchantsView, merchantForm, addNewButton])
+  hide([merchantsView, merchantForm, addNewButton, sortMerchantsButton])
   displayItems(items)
 }
 
